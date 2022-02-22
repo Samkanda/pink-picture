@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pink-picture/static/css/main.04179b6f.css",
-    "main.js": "/pink-picture/static/js/main.d8c265da.js",
+    "main.css": "/pink-picture/static/css/main.421c1cec.css",
+    "main.js": "/pink-picture/static/js/main.d7fcd3b2.js",
     "static/media/portrait.jfif": "/pink-picture/static/media/portrait.04ec5a1dc452bd4de6e9.jfif",
     "static/media/Branding.jpg": "/pink-picture/static/media/Branding.3cf7f3279b57499e2c26.jpg",
     "static/media/Fashion.jfif": "/pink-picture/static/media/Fashion.75579b3689bee18c7b2e.jfif",
@@ -13,11 +13,11 @@
     "static/media/6.jpg": "/pink-picture/static/media/6.7d75dd1a534fe93c8d9e.jpg",
     "static/media/5.jpg": "/pink-picture/static/media/5.70b6b75faec3fede24ff.jpg",
     "index.html": "/pink-picture/index.html",
-    "main.04179b6f.css.map": "/pink-picture/static/css/main.04179b6f.css.map",
-    "main.d8c265da.js.map": "/pink-picture/static/js/main.d8c265da.js.map"
+    "main.421c1cec.css.map": "/pink-picture/static/css/main.421c1cec.css.map",
+    "main.d7fcd3b2.js.map": "/pink-picture/static/js/main.d7fcd3b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.04179b6f.css",
-    "static/js/main.d8c265da.js"
+    "static/css/main.421c1cec.css",
+    "static/js/main.d7fcd3b2.js"
   ]
 }
