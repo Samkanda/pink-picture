@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/pink-picture/static/css/main.073c9b0a.css",
-    "main.js": "/pink-picture/static/js/main.ae3e9135.js",
+    "main.css": "/pink-picture/static/css/main.04179b6f.css",
+    "main.js": "/pink-picture/static/js/main.c2d5be9b.js",
+    "static/media/portrait.jfif": "/pink-picture/static/media/portrait.04ec5a1dc452bd4de6e9.jfif",
+    "static/media/Branding.jpg": "/pink-picture/static/media/Branding.3cf7f3279b57499e2c26.jpg",
+    "static/media/Fashion.jfif": "/pink-picture/static/media/Fashion.75579b3689bee18c7b2e.jfif",
+    "static/media/wedding.jpg": "/pink-picture/static/media/wedding.3e550d34251faf93d7e6.jpg",
+    "static/media/film.jpg": "/pink-picture/static/media/film.7491387c88da3b936f6e.jpg",
+    "static/media/Landmarks.jpg": "/pink-picture/static/media/Landmarks.29b63480c6d428f72e3d.jpg",
+    "static/media/home3.jpg": "/pink-picture/static/media/home3.b891ca32f8be8193cc1e.jpg",
+    "static/media/33.jpg": "/pink-picture/static/media/33.7e393e8e168a56c03f70.jpg",
+    "static/media/6.jpg": "/pink-picture/static/media/6.7d75dd1a534fe93c8d9e.jpg",
+    "static/media/5.jpg": "/pink-picture/static/media/5.70b6b75faec3fede24ff.jpg",
     "index.html": "/pink-picture/index.html",
-    "main.073c9b0a.css.map": "/pink-picture/static/css/main.073c9b0a.css.map",
-    "main.ae3e9135.js.map": "/pink-picture/static/js/main.ae3e9135.js.map"
+    "main.04179b6f.css.map": "/pink-picture/static/css/main.04179b6f.css.map",
+    "main.c2d5be9b.js.map": "/pink-picture/static/js/main.c2d5be9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ae3e9135.js"
+    "static/css/main.04179b6f.css",
+    "static/js/main.c2d5be9b.js"
   ]
 }
