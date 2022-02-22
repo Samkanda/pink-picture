@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pink-picture/static/css/main.073c9b0a.css",
+    "main.js": "/pink-picture/static/js/main.ae3e9135.js",
+    "index.html": "/pink-picture/index.html",
+    "main.073c9b0a.css.map": "/pink-picture/static/css/main.073c9b0a.css.map",
+    "main.ae3e9135.js.map": "/pink-picture/static/js/main.ae3e9135.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.ae3e9135.js"
+  ]
+}
