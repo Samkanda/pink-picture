@@ -1,15 +1,13 @@
 import React, {useState} from 'react';
 import {AppBar, Toolbar, IconButton, Box, Typography, Container, Button} from '@material-ui/core';
 import MenuIcon from "@material-ui/icons/Menu";
-import Home from '../Pages/Home'
-import {Link} from 'react-router-dom'
+import {Link} from "react-router-dom";
 import Modal from './Modals'
 
 const Navb = () => {
   const pages = ['Home', 'Film', 'Contact'];
-  const links = ['/', 'work', '/contact'];
-  const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
-  const [open, setOpen] = React.useState(false);
+  const links = ['/pink-picture', '/pink-picture/Film', '/pink-picture/contact'];
+  const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   
@@ -33,20 +31,22 @@ const Navb = () => {
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           >
           </Typography>
-          <Box  justifyContent={"center"} sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box style={{textDecoration: 'none'}}  justifyContent={"center"} sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page, index) => (
+            <nav key={page} style={{textDecoration: 'none'}}>
+              <Link to={links[index]} style={{textDecoration: 'none'}}>
               <Button
-                key={page}
-                sx={{ my: 2, display: 'block' }}
-                style={{ fontSize: '20px' ,fontFamily: 'Gideon Roman, cursive', marginRight: '3vw'}}
-                path='/' element ={<Home/>}
-              >
-                {page}
-              </Button>
+                      key={page}
+                      sx={{ my: 2, display: 'block' }}
+                      style={{ fontSize: '20px' ,fontFamily: 'Gideon Roman, cursive', marginRight: '3vw'}}
+                    >
+                      {page}
+                    </Button>
+                </Link>
+            </nav>
             ))}
           </Box>
           <IconButton
-            size="large"
             edge="start"
             color="inherit"
             aria-label="open drawer"

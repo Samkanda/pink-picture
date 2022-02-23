@@ -1,7 +1,6 @@
 import * as React from 'react';
-import {Modal, Box, Backdrop, Fade, Button} from '@material-ui/core';
+import {Modal, Box, Backdrop, Fade} from '@material-ui/core';
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
 
 const style = {
   position: 'absolute',
@@ -10,7 +9,6 @@ const style = {
   justifyContent: 'space-between',
   border: '2px solid #000',
   boxShadow: 24,
-  
 };
 
 const Boxx = styled(Box)`
@@ -25,9 +23,7 @@ const Boxx = styled(Box)`
       width: 1rem;
     }
   }
-
 `;
-
 
 const Bar = styled.div`
     width: 20%;
@@ -54,8 +50,7 @@ const Text = styled.h2`
     }
 `;
 
-
-const Modals = ({open, handleOpen, handleClose, setOpen}) => {
+const Modals = ({open, handleClose}) => {
   return (
     <div >
     <Modal
@@ -71,30 +66,24 @@ const Modals = ({open, handleOpen, handleClose, setOpen}) => {
       >
         <Fade in={open}>
           <Boxx sx={style}>
-            <Link to="/">
             <TextContainer onClick={handleClose}>
               <Bar className='stff'/>
                 <Text >
                   Home
                 </Text>
             </TextContainer>
-            </Link>
-            {/* <Link to='/work'>
             <TextContainer onClick={handleClose}>
               <Bar className='stff' style={{backgroundColor: '#e0536a'}}/>
                 <Text >
                   Film
                 </Text>
             </TextContainer>
-            </Link>
-            <Link to='/contact'>
             <TextContainer onClick={handleClose}>
               <Bar className='stff' style={{backgroundColor: '#cc0e2e'}}/>
                 <Text >
                   Contact
                 </Text>
             </TextContainer>
-            </Link> */}
             <button onClick={handleClose}><h1>Close</h1></button>
           </Boxx>
         </Fade>
