@@ -56,41 +56,28 @@ export const Gallary = () => {
 }
 
 const GalleryContainer = styled.div`
-    display: flex;
+    justify-self: center ;
     min-height: 100vh;
     background-color: #1F1F1F;
     h1{
-        position: absolute;
-        font-size: 10.5rem;
+        font-size: max(13vw, 30px);
         font-family: "Lobster", cursive;
         font-weight: lighter;
         color: white;
-        width:100%;
         text-align:center;
-        @media (max-width: 1500px) {
-            font-size: 4rem;
-        }
+        padding-bottom: 2rem;
     }
-    
-    
 `;
 
 const Cards = styled.div`
+    display: grid;
+    grid-template-columns:  repeat(auto-fill, 33%);
+    grid-auto-rows: auto;
 
-    padding-left:6rem ; 
-    display: flex;
-    flex-flow: row wrap;
-    @media (max-width: 1500px) {
-        padding-left: 0rem;
-        justify-content: center;
-        }
 `;
 
 const Card = styled.div`
-
-    flex-basis: 20rem;
     .icon {
-        display: flex;
         align-items: center;
         h3{
             margin-left: 1rem;
@@ -101,16 +88,9 @@ const Card = styled.div`
     }
 `;
 export const TileImage = styled.div`
-
-    flex: 1;
-    padding-top: 2rem;
-    padding-right: 2rem;
-    @media (max-width: 1500px) {
-        padding-right: 0rem;
-        }
     img{
-        width:28rem;
-        height:38rem;
+        width:28vw;
+        height:38vw;
         object-fit:cover;
         -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
         mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
@@ -122,25 +102,16 @@ export const TileImage = styled.div`
         font-size: 50px;
         color: white;
         font-family: 'STIX Two Text',serif;
-
     }
-    @media (max-width: 500px) {
-        img{
-        width:93vw;
-        height:54vw;
-        
-    }}
-    
+    @media (max-width: 700px) {
+      h3{
+          font-size: 1.5rem;
+      }
+    }   
 `;
 
 export const Description = styled.div`
-    flex: 1;
-    padding-left:5rem;
-    padding-top: 15rem;
-    @media (max-width: 1500px) {
-        padding-left: 0rem;
-        padding-top: 3rem;
-        }
+
     h1{
         position: absolute;
         font-size: 10.5rem;
