@@ -1,11 +1,12 @@
 import React from 'react'
 import { ContactForm } from '../Components/Contact/ContactForm'
-
+import {motion} from 'framer-motion';
+import { pageAnimation } from '../Components/Home/animation';
 const Contact = () => {
   return (
-    <div>
+    <motion.div variants={pageAnimation} initial='hidden' animate='show' exit="exit">
         <ContactForm/>
-    </div>
+    </motion.div>
   )
 }
 

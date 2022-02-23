@@ -46,7 +46,6 @@ const Work = styled(motion.div)`
     h2{
         padding: 1rem 0rem;
     }
-
     @media (max-width: 500px){
         padding: 0;
     }
