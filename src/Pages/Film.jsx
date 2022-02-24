@@ -17,21 +17,21 @@ const Film = () => {
             <Movie>
                 <h2>The Athlete</h2>
                 <div className="line"></div>
-                <Link to="/pink-picture/Film/the-athlete">
+                <Link to="/Film/the-athlete">
                     <img src={athelete} alt="aa"></img>
                 </Link>
             </Movie>
             <Movie >
                 <h2>The racer</h2>
                 <div className="line"></div>
-                <Link to="/pink-picture/Film/the-racer">
+                <Link to="/Film/the-racer">
                     <img src={theracer} alt="aa"></img>
                 </Link>
             </Movie>
             <Movie>
                 <h2>The goodtimes</h2>
                 <div className="line"></div>
-                <Link to="/pink-picture/Film/good-times">
+                <Link to="/Film/good-times">
                     <img src={goodtimes} alt="aa"></img>
                 </Link>
             </Movie>

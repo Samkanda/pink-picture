@@ -6,7 +6,7 @@ import Modal from './Modals'
 
 const Navb = () => {
   const pages = ['Home', 'Film', 'Contact'];
-  const links = ['/pink-picture', '/pink-picture/Film', '/pink-picture/contact'];
+  const links = ['/', '/Film', '/Contact'];
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);

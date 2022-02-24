@@ -1,6 +1,8 @@
 import * as React from 'react';
 import {Modal, Box, Backdrop, Fade} from '@material-ui/core';
 import styled from 'styled-components';
+import {Link} from "react-router-dom";
+
 
 const style = {
   position: 'absolute',
@@ -66,24 +68,30 @@ const Modals = ({open, handleClose}) => {
       >
         <Fade in={open}>
           <Boxx sx={style}>
+          <Link to='/' style={{textDecoration: 'none'}}>
             <TextContainer onClick={handleClose}>
               <Bar className='stff'/>
                 <Text >
                   Home
                 </Text>
             </TextContainer>
+            </Link>
+            <Link to='/Film' style={{textDecoration: 'none'}}>
             <TextContainer onClick={handleClose}>
               <Bar className='stff' style={{backgroundColor: '#e0536a'}}/>
                 <Text >
                   Film
                 </Text>
             </TextContainer>
+            </Link>
+            <Link to='/Contact' style={{textDecoration: 'none'}}>
             <TextContainer onClick={handleClose}>
               <Bar className='stff' style={{backgroundColor: '#cc0e2e'}}/>
                 <Text >
                   Contact
                 </Text>
             </TextContainer>
+            </Link>
             <button onClick={handleClose}><h1>Close</h1></button>
           </Boxx>
         </Fade>
